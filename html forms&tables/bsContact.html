@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Bootstrap Theme Company Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="bSstyle.css">
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="bootstrap.html"><img style="margin-left: 30px;" src="diamondlogo.png" alt=""></a>
+
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="bsabout.html">ABOUT</a></li>
+                    <li><a href="bsSignup.html">SIGNUP</a></li>
+                    <li><a href="bsData.html">DATA</a></li>
+                    <li><a href="bsContact.html">CONTACT</a></li>
+                    <li><a href="bslogin.html">Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background-image: linear-gradient(rgba(34, 4, 104, 0.6), rgba(78, 69, 163, 0.6)), url(bg.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        section {
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            background-image: linear-gradient(rgba(34, 4, 104, 0.6), rgba(78, 69, 163, 0.6)), url(bg.jpg);
+            background: rgba(0, 0, 0, 0.5);
+           
+        }
+        .customize{
+            background: rgba(0, 0, 0, 0.5);
+            padding: 40px;
+        }
+    </style>
+
+<body>
+    <!--Section: Contact v.2-->
+    <section class="mb-4" >
+        <div class="customize">
+            <div class="row">
+
+                <!--Grid column-->
+                <div class="col-md-9 mb-md-0 mb-5">
+                    <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                        <!--Grid row-->
+                        <div class="row">
+                            <h2>Contact us</h2>
+                            <!--Grid column-->
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <label for="name" class="">Your name</label>
+                                    <input type="text" id="name" name="name" class="form-control">
+
+                                </div>
+                            </div>
+                            <!--Grid column-->
+
+                            <!--Grid column-->
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <label for="email" class="">Your email</label>
+                                    <input type="text" id="email" name="email" class="form-control">
+
+                                </div>
+                            </div>
+                            <!--Grid column-->
+
+                        </div>
+                        <!--Grid row-->
+
+                        <!--Grid row-->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="md-form mb-0">
+                                    <label for="subject" class="">Subject</label>
+                                    <input type="text" id="subject" name="subject" class="form-control">
+
+                                </div>
+                            </div>
+                        </div>
+                        <!--Grid row-->
+
+                        <!--Grid row-->
+                        <div class="row">
+
+                            <!--Grid column-->
+                            <div class="col-md-12">
+
+                                <div class="md-form">
+                                    <label for="message">Your message</label>
+                                    <textarea type="text" id="message" name="message" rows="2"
+                                        class="form-control md-textarea"></textarea>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <!--Grid row-->
+
+                    </form>
+
+                    <div class="text-center text-md-left">
+                        <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+                    </div>
+                    <div class="status"></div>
+                </div>
+
+
+            </div>
+        </div>
+        <!--Section heading-->
+
+        <!--Section description-->
+
+
+
+    </section>
+    <!--Section: Contact v.2-->
+</body>
+
+</head>
+
+</html>
